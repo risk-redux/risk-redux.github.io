@@ -17,3 +17,6 @@ github_username:  egyptiankarim
 
 # Build settings
 markdown: kramdown
+
+collections:
+- projects
