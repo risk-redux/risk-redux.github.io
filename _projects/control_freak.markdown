@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Control Freak"
+title: "control_freak"
 app_url: "http://controlfreak.risk-redux.io"
-categories:
+thumbnail: /images/control_freak.png
 tags:
 ---

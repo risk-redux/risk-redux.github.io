@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Typist"
+title:  "typist"
 app_url: "http://typist.risk-redux.io"
-categories:
+thumbnail: /images/typist.png
 tags:
 ---

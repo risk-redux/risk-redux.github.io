@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Risque"
+title:  "Risqué"
 app_url: "http://risque.risk-redux.io"
-categories:
+thumbnail: /images/placeholder.png
 tags:
 ---

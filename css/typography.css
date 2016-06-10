@@ -33,3 +33,17 @@ p{
 .popover > .arrow {
   visibility: hidden;
 }
+
+ul.thumbnail-list {
+	list-style: none;
+	list-style-position: inside;
+	list-style-type: none;
+	list-style-image: none;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+ul.thumbnail-list li {
+	padding: 0 auto 0 auto;
+	margin: 0 0 0 0;
+}
