@@ -9,7 +9,7 @@ permalink: /projects/
     <ul id="projects_list" class="thumbnail-list">
     {% for p in site.projects reversed %}
       <li class="col-md-3 col-sm-4 col-xs-6">
-        <a class="thumbnail" data-toggle="tooltip" href="{{ p.url }}" title="{{ p.title }}" >
+        <a class="thumbnail" data-toggle="tooltip" href="{{ p.app_url }}" title="{{ p.title }}" >
           <img src="{{ p.thumbnail }}" title="{{ p.title }}" />
         </a>
       </li>

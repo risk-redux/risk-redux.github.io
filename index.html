@@ -3,4 +3,17 @@ title: Welcome!
 layout: page
 ---
 
-<p>A real polite and helpful introduction to Risk Redux is coming soon!</p>
+<p class="lead">Risk Redux is a platform for applications that simplify risk management. Here are some of the currently available applications:</p>
+
+<div class="row">
+{% for p in site.projects reversed %}
+  <div class="col col-sm-6 col-md-4">
+    <a href="{{ p.app_url }}" title="{{ p.title }}" >
+      <figure class="figure">
+          <img src="{{ p.thumbnail }}" title="{{ p.title }}" class="figure-img img-fluid" />
+        <figcaption class="figure-caption">{{ p.title }}</figcaption>
+      </figure>
+    </a>
+  </div>
+{% endfor %}
+</div>
