@@ -4,16 +4,18 @@ title: Projects
 permalink: /projects/
 ---
 
+<p class="lead">Risk Redux is a project trying to turn useful frameworks for thinking about cybersecurity into simple web applications. Here's what we've got so far:</p>
+
 <div class="row">
-  <div class="col-md-12">
-    <ul id="projects_list" class="thumbnail-list">
-    {% for p in site.projects reversed %}
-      <li class="col-md-3 col-sm-4 col-xs-6">
-        <a class="thumbnail" data-toggle="tooltip" href="{{ p.app_url }}" title="{{ p.title }}" >
-          <img src="{{ p.thumbnail }}" title="{{ p.title }}" />
-        </a>
-      </li>
-    {% endfor %}
-    </ul>
+{% for p in site.projects reversed %}
+  <div class="col col-sm-6 col-md-4">
+    <a href="{{ p.app_url }}" title="{{ p.title }}" >
+      <figure class="figure">
+          <img src="{{ p.thumbnail }}" title="{{ p.title }}" class="figure-img img-fluid" />
+        <figcaption class="figure-caption">{{ p.title }}</figcaption>
+      </figure>
+    </a>
   </div>
+{% endfor %}
 </div>
+
