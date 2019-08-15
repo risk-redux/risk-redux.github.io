@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "performatron (Coming Soon)"
+title:  "performatron"
 app_url: "https://github.com/risk-redux/performatron"
-thumbnail: /images/placeholder.png
+thumbnail: /images/performatron.png
 tags:
 ---

@@ -11,7 +11,7 @@ email: karim@egyptiankarim.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to Risk Redux! [Neat stuff coming soon!]
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://risk-redux.io" # the base hostname & protocol for your site
+url: "https://risk-redux.io" # the base hostname & protocol for your site
 twitter_username: egyptiankarim
 github_username:  egyptiankarim
 
