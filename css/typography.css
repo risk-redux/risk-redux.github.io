@@ -8,15 +8,13 @@ p{
 }
 
 .navbar-brand{
-  font-family: "Lobster";
-  font-size: 1.50em;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
+  font-family: 'Righteous', cursive;
+  font-size: 2.50em;
+  font-weight: bold;
 }
 
 .fancy{
-  font-family: "Lobster";
+  font-family: 'Righteous', cursive;
 }
 
 .giant{
@@ -34,16 +32,6 @@ p{
   visibility: hidden;
 }
 
-ul.thumbnail-list {
-	list-style: none;
-	list-style-position: inside;
-	list-style-type: none;
-	list-style-image: none;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
-
-ul.thumbnail-list li {
-	padding: 0 auto 0 auto;
-	margin: 0 0 0 0;
+th, td{
+  font-family: "Share Tech Mono";
 }
