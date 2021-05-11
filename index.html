@@ -5,15 +5,17 @@ layout: page
 
 <p class="lead">Risk Redux is a project trying to turn useful frameworks for thinking about cybersecurity into simple web applications. Here's what we've got so far:</p>
 
-<div class="row">
-{% for p in site.projects reversed %}
-  <div class="col col-sm-6 col-md-4">
-    <a href="{{ p.app_url }}" title="{{ p.title }}" >
-      <figure class="figure">
-          <img src="{{ p.thumbnail }}" title="{{ p.title }}" class="figure-img img-fluid" />
-        <figcaption class="figure-caption">{{ p.title }}</figcaption>
-      </figure>
-    </a>
+<div class="container-fluid">
+  <div class="row">
+  {% for p in site.projects reversed %}
+    <div class="col-sm-4">
+      <a href="{{ p.app_url }}" title="{{ p.title }}" >
+        <figure class="figure">
+            <img src="{{ p.thumbnail }}" title="{{ p.title }}" class="figure-img img-fluid" />
+          <figcaption class="figure-caption">{{ p.title }}</figcaption>
+        </figure>
+      </a>
+    </div>
+  {% endfor %}
   </div>
-{% endfor %}
 </div>
