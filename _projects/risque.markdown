@@ -2,7 +2,7 @@
 layout: post
 title:  "risqué (Beta)"
 app_url: "https://risque.risk-redux.io"
-thumbnail: /images/risque.png\
+thumbnail: /images/risque.png
 icon: "fas fa-exclamation-triangle"
 tags:
 ---
