@@ -3,19 +3,41 @@ title: Welcome!
 layout: page
 ---
 
-<p class="lead">Risk Redux is a project trying to turn useful frameworks for thinking about cybersecurity into simple web applications. Here's what we've got so far:</p>
-
-<div class="container-fluid">
-  <div class="row">
-  {% for p in site.projects reversed %}
-    <div class="col-sm-4">
-      <a href="{{ p.app_url }}" title="{{ p.title }}" >
-        <figure class="figure">
-            <img src="{{ p.thumbnail }}" title="{{ p.title }}" class="figure-img img-fluid" />
-          <figcaption class="figure-caption">{{ p.title }}</figcaption>
-        </figure>
-      </a>
+<div class="container col-xl-10 col-xxl-8 px-4 py-4">
+  <div class="row align-items-center g-lg-5 py-5">
+    <div class="col-lg-7 text-center text-lg-start">
+      <h1 class="display-4 fw-bold lh-1 mb-3">Hey! How's it going?</h1>
+      <p class="col-lg-10 fs-4">Risk Redux is a project trying to turn useful frameworks for thinking about cybersecurity into simple, open-source code. So, let's manage risk!</p>
     </div>
-  {% endfor %}
+    <div class="col-md-10 mx-auto col-lg-5">
+      <small class="text-muted"><em>We're a small team and we do all of our work out in the open, so...</em></small>
+      <a href="https://github.com/risk-redux" class="w-100 btn btn-lg btn-outline-primary my-4" type="submit">Get involved @ <i class="fab fa-github"></i></a>
+    </div>
   </div>
 </div>
+
+<h1 class="pb-1 border-bottom">Our active projects</h1>
+
+<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+  {% for p in site.projects reversed %}
+  <div class="feature col">
+    <div class="card h-100 text-bg-light">
+      <a href="{{ p.app_url }}">
+        <img src="{{ p.thumbnail }}" title="{{ p.title }}" class="card-img-top" />
+      </a>
+      <div class="card-body">
+        <h2 class="card-title fancy">{{ p.title }} <i class="text-info {{ p.icon }}"></i></h2>
+        <p class="card-text">{{ p.content }}</p>
+      </div>
+      <div class="card-footer">
+        <a href="{{ p.app_url }}" class="icon-link d-inline-flex align-items-center">Goto `{{ p.title }}`!</a>
+        <small><i class="text-muted px-2 fas fa-external-link-alt"></i></small>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h1 class="pb-1 border-bottom">What we're thinking about...</h1>
+
+<p class="lead pb-5">We've got a few ideas in the works at Risk Redux, and we're planning on publishing all of them! Stay tuned!</p>
